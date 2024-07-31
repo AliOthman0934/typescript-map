@@ -91,3 +91,8 @@ tsc --watch
 /```
 
 This command watches the source files and recompiles them upon any changes, providing a live development environment.
+
+## Step 4: Verify Your Setup
+Check Compiled Files: After compilation, verify the output JavaScript files in the specified outDir (e.g., dist).
+
+Observe Watch Mode: Make changes to TypeScript files and confirm that they are automatically recompiled.
