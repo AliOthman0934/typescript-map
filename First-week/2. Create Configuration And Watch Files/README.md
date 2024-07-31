@@ -18,16 +18,23 @@ Open the tsconfig.json File: Use a text editor to open the file. It will contain
 
 json
 
-/```bash
+ /```bash
 
 {
   "compilerOptions": {
+  
     "target": "es5",                           // Target JavaScript version
+    
     "module": "commonjs",                      // Module system
+    
     "strict": true,                            // Enable strict type-checking options
+    
     "esModuleInterop": true,                   // Compatibility with CommonJS and ES Modules
+    
     "skipLibCheck": true,                      // Skip type checking of declaration files
+    
     "forceConsistentCasingInFileNames": true   // Ensure consistent casing in imports
+    
   }
 }
 
@@ -36,9 +43,13 @@ json
 Customize Your Configuration: Modify the tsconfig.json as needed. Commonly adjusted settings include:
 
 target: Specifies the ECMAScript target version (e.g., es5, es6).
+
 module: Defines the module system (e.g., commonjs, es6).
+
 outDir: Sets the output directory for compiled JavaScript files.
+
 rootDir: Specifies the root directory of input TypeScript files.
+
 Example configuration:
 
 json
@@ -47,13 +58,20 @@ json
 
 {
   "compilerOptions": {
+  
     "target": "es6",
+    
     "module": "commonjs",
+    
     "outDir": "./dist",
+    
     "rootDir": "./src",
+    
     "strict": true,
+    
     "esModuleInterop": true
   },
+  
   "include": ["src/**/*"]
 }
 
