@@ -12,7 +12,7 @@
 
 This command creates a tsconfig.json file with default settings
    
-Step 2: Configure tsconfig.json
+## Step 2: Configure tsconfig.json
 
 Open the tsconfig.json File: Use a text editor to open the file. It will contain settings similar to this:
 
@@ -72,3 +72,22 @@ json
   "include": ["src/**/*"]
 }
 /```
+
+
+## Step 3: Compile and Watch TypeScript Files
+
+Compile TypeScript Files:
+
+/```bash
+tsc
+/```
+
+This command compiles TypeScript files according to the tsconfig.json configuration.
+
+Enable Watch Mode:
+
+/```bash
+tsc --watch
+/```
+
+This command watches the source files and recompiles them upon any changes, providing a live development environment.
