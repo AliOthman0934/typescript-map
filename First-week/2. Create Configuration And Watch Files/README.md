@@ -19,7 +19,6 @@ Open the tsconfig.json File: Use a text editor to open the file. It will contain
 json
 
  /```bash
-
 {
   "compilerOptions": {
   
@@ -37,7 +36,6 @@ json
     
   }
 }
-
 /```
 
 Customize Your Configuration: Modify the tsconfig.json as needed. Commonly adjusted settings include:
@@ -55,7 +53,6 @@ Example configuration:
 json
 
 /```bash
-
 {
   "compilerOptions": {
   
@@ -74,5 +71,4 @@ json
   
   "include": ["src/**/*"]
 }
-
 /```
